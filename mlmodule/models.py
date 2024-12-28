@@ -65,12 +65,6 @@ class Sequential:
             
             if verbose and (epoch + 1) % verbose == 0:
                 print(f"Epoch {epoch + 1}/{epochs}, Loss: {np.mean(losses):.4f}")
-        print("Training complete.")
-        print("Final weights and biases:")
-        for i, layer in enumerate(self.layers):
-            print(f"Layer {i + 1}:")
-            print(f"Weights: {layer.W.mean()}")
-            print(f"Biases: {layer.b.mean()}")
 
     def forward(self, X):
         X, _ = self._validate_input(X)

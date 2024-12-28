@@ -5,7 +5,7 @@ A custom Machine Learning Module built from scratch without the use of any exter
 ## Installation
 
 ```bash
-pip install mlmodule
+pip install git+https://github.com/barondebajit/mlmodule.git
 ```
 
 ## Features

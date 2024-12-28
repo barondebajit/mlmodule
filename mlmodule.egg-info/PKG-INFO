@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: mlmodule
-Version: 0.1.0
+Version: 0.1.1
 Summary: A custom Machine Learning Module built from scratch
 Home-page: https://github.com/barondebajit/mlmodule
 Author: barondebajit
@@ -27,7 +27,7 @@ A custom Machine Learning Module built from scratch without the use of any exter
 ## Installation
 
 ```bash
-pip install mlmodule
+pip install git+https://github.com/barondebajit/mlmodule.git
 ```
 
 ## Features
