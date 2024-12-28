@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: mlmodule
+Version: 0.1.0
+Summary: A custom Machine Learning Module built from scratch
+Home-page: https://github.com/barondebajit/mlmodule
+Author: barondebajit
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.19.0
+Requires-Dist: pandas>=1.2.0
+
+# mlmodule
+
+A custom Machine Learning Module built from scratch without the use of any external Machine Learning modules like Scikit-Learn or Tensorflow. Only uses `pandas` and `numpy` for data handling and vectorized operations.
+
+## Installation
+
+```bash
+pip install mlmodule
+```
+
+## Features
+
+- Neural network layer (Dense)
+- Activation functions (ReLU, Sigmoid, Tanh, Leaky ReLU)
+- Optimizers (Adam)
+- Loss functions (MSE, Binary Cross-Entropy, Categorical Cross-Entropy)
+- Preprocessing tools (LabelEncoder, StandardScaler, MinMaxScaler)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
