@@ -18,4 +18,4 @@ pip install git+https://github.com/barondebajit/mlmodule.git
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/barondebajit/mlmodule/blob/main/LICENSE) file for details.
